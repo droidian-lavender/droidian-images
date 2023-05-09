@@ -20,3 +20,23 @@ xiaomi_lavender:
     - linux-image-4.4.192-xiaomi-lavender
     - linux-image-xiaomi-lavender
     - qtwayland5
+
+xiaomi_lavender-cutie:
+  type: image
+  arch: arm64
+  edition: cutie
+  variant: phone
+  apilevel: 28
+  use_internal_repository: false
+
+  packages:
+    - adaptation-droidian-lavender
+    - adaptation-lavender-configs
+    - droidian-sysfs-torch
+    - linux-bootimage-4.4.192-xiaomi-lavender
+    - linux-bootimage-xiaomi-lavender
+    - linux-headers-4.4.192-xiaomi-lavender
+    - linux-headers-xiaomi-lavender
+    - linux-image-4.4.192-xiaomi-lavender
+    - linux-image-xiaomi-lavender
+    - qtwayland5
